@@ -14,10 +14,7 @@
     "backend": {
       "root": "backend",
       "framework": "fastapi",
-      "entrypoint": "app.main:app",
-      "includeFiles": [
-        "ml_pipeline/**"
-      ]
+      "entrypoint": "app.main:app"
     }
   },
   "rewrites": [
