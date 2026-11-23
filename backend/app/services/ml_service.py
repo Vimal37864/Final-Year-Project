@@ -6,7 +6,7 @@ from sqlalchemy.orm import Session
 from app.models.crime import CrimeRecord
 from app.schemas.crime import CrimePredictionRequest, SuspectPredictionRequest
 
-ARTIFACTS_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "ml_pipeline", "artifacts"))
+ARTIFACTS_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "..", "ml_pipeline", "artifacts"))
 
 class MLService:
     def __init__(self):
