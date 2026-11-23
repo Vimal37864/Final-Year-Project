@@ -13,10 +13,7 @@
       "root": "frontend",
       "framework": "vite"
     },
-    "ml_pipeline": {
-      "root": "ml_pipeline",
-      "runtime": "python"
-    }
+    
   },
   "rewrites": [
     {
