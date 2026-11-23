@@ -2,7 +2,7 @@ import { useState } from 'react';
 import axios from 'axios';
 import { RiskBadge } from './DataTable';
 
-const api = axios.create({ baseURL: '/api/v1' });
+const api = axios.create({ baseURL: import.meta.env.VITE_API_URL || '/api/v1' });
 
 const CRIME_TYPES = ["Theft", "Assault", "Burglary", "Robbery", "Fraud", "Vandalism", "Drug Offense", "Kidnapping", "Cybercrime", "Homicide"];
 const AREAS = ["T. Nagar", "Anna Nagar", "Adyar", "Velachery", "Tambaram", "Guindy", "Mylapore", "Egmore", "Chromepet", "Porur", "Mamallapuram", "Sholinganallur"];
