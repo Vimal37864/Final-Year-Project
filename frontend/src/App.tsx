@@ -13,7 +13,7 @@ import { SettingsPage } from './components/SettingsPage';
 import { Calendar, ShieldCheck, ShieldAlert, Shield } from 'lucide-react';
 import { AreaChart, Area, ResponsiveContainer } from 'recharts';
 
-const api = axios.create({ baseURL: 'http://localhost:8000/api/v1' });
+const api = axios.create({ baseURL: '/api/v1' });
 
 /* ─── Dashboard Page (default) ────────────────────────────────── */
 function DashboardPage() {

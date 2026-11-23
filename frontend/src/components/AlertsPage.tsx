@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import axios from 'axios';
 import { RiskBadge } from './DataTable';
 
-const api = axios.create({ baseURL: 'http://localhost:8000/api/v1' });
+const api = axios.create({ baseURL: '/api/v1' });
 
 export function AlertsPage() {
   const [alerts, setAlerts] = useState<any[]>([]);
